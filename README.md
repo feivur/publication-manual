@@ -2,7 +2,7 @@
 
 ## Significant points of publication Android application to Play market
 
-You should start by registering a developer account [documentation](https://support.google.com/googleplay/android-developer/answer/6112435).
+You should start by registering a developer account [documentation](https://support.google.com/googleplay/android-developer/answer/6112435). It is important to register an organizational developer account, not a personal developer account.
 
 The process of creating a new application is described in Google Help [documentation](https://support.google.com/googleplay/android-developer/answer/9859152).
 Essentially, you need to click through several forms, answering questions about the purpose of the application and compliance with numerous legal requirements.
@@ -23,7 +23,7 @@ _Ask questions about any unclear aspects of the publication, and we will immedia
 
 ## Важные моменты публикации Android-приложения на Play Market.
 
-Начать следует с регистрации аккаунта разработчика [documentation](https://support.google.com/googleplay/android-developer/answer/6112435).
+Начать следует с регистрации аккаунта разработчика [documentation](https://support.google.com/googleplay/android-developer/answer/6112435). Важно зарегистрировать аккаунт разработчика организации, а не личный аккаунт разработчика.
 
 Процесс создания нового приложения описан в справке google
 [documentation](https://support.google.com/googleplay/android-developer/answer/9859152).
