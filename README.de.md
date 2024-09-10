@@ -1,19 +1,19 @@
-# Wichtige Veröffentlichungspunkte Android -Anwendung auf Spielmarkt
+# Wichtige Punkte der Veröffentlichung der Android-Anwendung für den Play Market
 
-Sie sollten zunächst ein Entwicklerkonto [Dokumentation] registrieren (https://support.google.com/googleplay/android-developer/answer/6112435). Es ist wichtig, ein organisatorisches Entwicklerkonto zu registrieren, kein persönliches Entwicklerkonto.
+Sie sollten mit der Registrierung eines Entwicklerkontos beginnen [Dokumentation](https://support.google.com/googleplay/android-developer/answer/6112435). Es ist wichtig, ein **organisatorisches** Entwicklerkonto zu registrieren, nicht ein persönliches Entwicklerkonto.
 
-Der Prozess des Erstellens einer neuen Anwendung wird in Google Help [Dokumentation] beschrieben (https://support.google.com/googleplay/android-developer/answer/9859152).
-Im Wesentlichen müssen Sie verschiedene Formulare durchklicken, um Fragen zum Zweck des Antrags und der Einhaltung zahlreicher gesetzlicher Anforderungen zu beantworten.
-Um die Anwendungsseite zu entwerfen, müssen Sie Screenshots vom Gerät und anderen grafischen Ressourcen vorbereiten.
+Der Prozess zum Erstellen einer neuen Anwendung wird in der Google-Hilfe [Dokumentation](https://support.google.com/googleplay/android-developer/answer/9859152) beschrieben.
+Im Wesentlichen müssen Sie sich durch mehrere Formulare klicken und Fragen zum Zweck des Antrags sowie zur Einhaltung zahlreicher rechtlicher Anforderungen beantworten.
+Um die Anwendungsseite zu gestalten, müssen Sie Screenshots vom Gerät und andere grafische Ressourcen vorbereiten.
 
-Wichtige Anmerkungen, die berücksichtigt werden müssen. Ohne sie wird Ihnen die Veröffentlichung verweigert. Denken Sie daran, dass die Bewerbung vor der Veröffentlichung von aufmerksamen und wählerischen Personen überprüft wird.
+Wichtige Hinweise, die beachtet werden müssen. Ohne sie wird Ihnen die Veröffentlichung verweigert. Denken Sie daran, dass die Bewerbung vor der Veröffentlichung von aufmerksamen und wählerischen Personen bei Google überprüft wird.
 
-1. Beim Entwerfen einer Anwendungsseite ist es wichtig, Screenshots, die speziell aus Ihrer Anwendung aufgenommen wurden, hochzuladen. Sie werden die Überprüfung nicht bestehen, wenn die Anwendungsschnittstelle nicht die Bildschirme enthält, die Sie in den Screenshots angegeben haben.
-2. Für den Abschnitt ** Vordergrundservice ** müssen Sie ein Video vom Bildschirm aufzeichnen und laut dem folgenden Text laut werden: "Wir verwenden Vordergrund -Dienstberechtigungen, um einen Hintergrunddienst zu erhalten, um Benachrichtigungen von unserem Videoserver zu erhalten, wenn es vorhanden ist, wenn es vorhanden ist Kein Internet. Dies ist ein Ersatz für Push -Benachrichtigungen für ein lokales Netzwerk. "
-3. Geben Sie im Abschnitt ** Werbemaßnahmen ** Geben Sie an, dass Sie Werbe -ID für ** Analytics ** verwenden.
-4. Für die Abschnitte ** Datensicherheit ** und ** Datenschutzbestimmungen ** müssen Sie den Text der Datenschutzrichtlinie ** auf Ihrer Website ** platzieren und einen Link zu dieser Seite angeben.
-5. Ausfüllen des Abschnitts ** Inhaltswerte ** ist erst nach dem Hochladen der Anwendungsbaugruppe in den Release -Entwurf möglich.
-6. Wenn Ihre Anwendung keinen Demo -Server hat, benötigt Google möglicherweise ein Testkonto, um die Anwendung zu überprüfen. Übergeben Sie diese Daten, um eine Verbindung herzustellen.
-7. Wenn Sie vor der Veröffentlichung der Bewerbung ein persönliches Konto anstelle eines Organisationskontos registriert haben, müssen Sie geschlossene Tests durchführen. Mindestens 20 Geräte müssen mindestens 14 Tage hintereinander daran teilnehmen. Tests an Simulatoren funktionieren nicht, echte Geräte werden benötigt. Google schlägt vor, sie fast auf der Straße zu suchen und nach Freiwilligen unter Freunden, Bekannten und in Foren zu suchen. Sie müssen eine Liste von Tester -Gerätekonten in der Konsole erstellen. Senden Sie die Tester nach der Veröffentlichung der Anwendung im geschlossenen Testkanal einen Link zur Anwendung, damit sie sie installieren. Details [Dokumentation] (https://support.google.com/googleplay/android-developer/answer/14151465). Die absurdeste Anforderung.
+1. Beim Entwerfen einer Anwendungsseite ist es wichtig, Screenshots hochzuladen, die speziell aus Ihrer Anwendung stammen. Sie bestehen die Prüfung nicht, wenn die Anwendungsoberfläche nicht die Bildschirme enthält, die Sie in den Screenshots bereitgestellt haben.
+2. Wenn Sie die betreffende Funktion **Lokale Benachrichtigungen** anfordern, müssen Sie für den Abschnitt **Berechtigungen für Vordergrunddienste** ein Video vom Bildschirm aufnehmen und den folgenden Text laut sagen: „Wir verwenden Berechtigungen für Vordergrunddienste für.“ ein Hintergrunddienst zum Empfangen von Benachrichtigungen von unserem Videoserver, wenn kein Internet verfügbar ist. Dies ist ein Ersatz für Push-Benachrichtigungen für ein lokales Netzwerk.
+3. Geben Sie im Abschnitt **Werbe-ID** an, dass Sie die Werbe-ID für **Analysen** verwenden.
+4. Für die Abschnitte **Datensicherheit** und **Datenschutzrichtlinie** müssen Sie den Text der Datenschutzrichtlinie **auf Ihrer Website** platzieren und einen Link zu dieser Seite bereitstellen.
+5. Das Ausfüllen des Abschnitts **Inhaltsbewertungen** ist erst möglich, nachdem die Anwendungsassembly in den Release-Entwurf hochgeladen wurde.
+6. Wenn Ihre Anwendung keinen Demoserver hat, benötigt Google möglicherweise ein Testkonto, um die Anwendung zu überprüfen. Übergeben Sie ihnen diese Daten, um eine Verbindung herzustellen: URL http://136.243.144.109:8000/asip-api, Login-Root, Passwort Root.
+7. Wenn Sie ein persönliches Konto anstelle eines Organisationskontos registriert haben, müssen Sie vor der Veröffentlichung der Bewerbung einen geschlossenen Test durchführen. Mindestens 20 Geräte müssen mindestens 14 Tage am Stück daran teilnehmen. Das Testen an Simulatoren wird nicht funktionieren, es werden echte Geräte benötigt. Google schlägt vor, sie fast auf der Straße zu suchen, bei Freunden, Bekannten und in Foren nach Freiwilligen zu suchen. Sie müssen in der Konsole eine Liste der Tester-Gerätekonten erstellen. Nachdem Sie die Anwendung im geschlossenen Testkanal veröffentlicht haben, senden Sie den Testern einen Link zur Anwendung, damit sie diese installieren können. Details [Dokumentation](https://support.google.com/googleplay/android-developer/answer/14151465). Die absurdeste Forderung.
 
-_Ak Fragen zu unklaren Aspekten der Veröffentlichung, und wir werden diese Anweisung sofort mit Answers_ ergänzen
+_Stellen Sie Fragen zu unklaren Aspekten der Veröffentlichung und wir werden diese Anleitung umgehend mit Antworten ergänzen_

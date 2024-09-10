@@ -1,6 +1,6 @@
 # Важные моменты публикации Android-приложения на Play Market.
 
-Начать следует с регистрации аккаунта разработчика [documentation](https://support.google.com/googleplay/android-developer/answer/6112435). Важно зарегистрировать аккаунт разработчика организации, а не личный аккаунт разработчика.
+Начать следует с регистрации аккаунта разработчика [documentation](https://support.google.com/googleplay/android-developer/answer/6112435). Важно зарегистрировать аккаунт разработчика **организации**, а не личный аккаунт разработчика.
 
 Процесс создания нового приложения описан в справке google
 [documentation](https://support.google.com/googleplay/android-developer/answer/9859152).
@@ -10,7 +10,7 @@
 Важные замечания, которые обязательно нужно учесть. Без них вам откажут в публикации. Помните, что проверку оформления приложения перед публикацией проводят внимательные придирчивые люди.
 
 1. При оформлении страницы приложения важно выгружать скриншоты, сделанные именно с вашего приложения. Вы не пройдёте проверку, если в интерфейсе приложения не найдётся экранов, что вы предоставили на скриншотах.
-2. Для раздела **Foreground service permissions** нужно записать видео с экрана и проговорить голосом следующий текст "We use foreground service permissions for a background service to receive notifications from our video server when there is no Internet. This is a replacement for push notifications for a local network". 
+2. Если вы запросили функцию **Локальные уведомления** в опроснике, для раздела **Foreground service permissions** нужно записать видео с экрана и проговорить голосом следующий текст "We use foreground service permissions for a background service to receive notifications from our video server when there is no Internet. This is a replacement for push notifications for a local network". 
 3. В разделе **Advertising ID** укажите, что используете advertising ID для аналитики.
 4. Для разделов **Data safety** и **Privacy policy** вам потребуется разместить **на своем сайте** текст политики конфиденциальности и предоставить ссылку на эту страницу. 
 5. Заполнение раздела **Content ratings** возможно только после выгрузки сборки приложения в черновик релиза.

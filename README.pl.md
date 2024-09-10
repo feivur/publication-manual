@@ -1,19 +1,19 @@
-# Znaczące punkty publikacji aplikacja na Android na rynek gry
+# Istotne punkty publikacji aplikacji na Androida na rynek Play
 
-Powinieneś zacząć od rejestracji konta dewelopera [dokumentacja] (https://support.google.com/googleplay/android-developer/answer/6112435). Ważne jest, aby zarejestrować konto programisty organizacyjnego, a nie osobiste konto programisty.
+Powinieneś zacząć od zarejestrowania konta programisty [dokumentacja](https://support.google.com/googleplay/android-developer/answer/6112435). Ważne jest, aby zarejestrować **organizacyjne** konto programisty, a nie osobiste konto programisty.
 
-Proces tworzenia nowej aplikacji opisano w Google Help [Documentation] (https://support.google.com/googleplay/android-developer/answer/9859152).
-Zasadniczo musisz kliknąć kilka formularzy, odpowiadając na pytania dotyczące celu wniosku i zgodności z licznymi wymogami prawnymi.
-Aby zaprojektować stronę aplikacji, musisz przygotować zrzuty ekranu z urządzenia i innych zasobów graficznych.
+Proces tworzenia nowej aplikacji opisany jest w [dokumentacji] Pomocy Google(https://support.google.com/googleplay/android-developer/answer/9859152).
+Zasadniczo trzeba przeklikać kilka formularzy, odpowiadając na pytania dotyczące celu wniosku i zgodności z licznymi wymogami prawnymi.
+Aby zaprojektować stronę aplikacji, będziesz musiał przygotować zrzuty ekranu z urządzenia i innych zasobów graficznych.
 
-Ważne uwagi, które należy wziąć pod uwagę. Bez nich odmówisz publikacji. Pamiętaj, że przed publikacją aplikacja zostanie sprawdzona przez uważnych i wybrednych ludzi.
+Ważne uwagi, które należy wziąć pod uwagę. Bez nich odmówimy publikacji. Pamiętaj, że przed publikacją wniosek zostanie sprawdzony przez uważne i wybredne osoby w Google.
 
-1. Podczas projektowania strony aplikacji ważne jest, aby przesłać zrzuty ekranu pobrane specjalnie z aplikacji. Nie przekażesz recenzji, jeśli interfejs aplikacji nie zawiera ekranów podanych na zrzutach ekranu.
-2. W sekcji ** Usługi na pierwszym planie ** musisz nagrać wideo z ekranu i powiedzieć na głos: „Używamy uprawnień do usługi na pierwszym planie, aby otrzymywać powiadomienia z naszego serwera wideo, gdy jest Bez Internetu.
-3. W sekcji ** ID reklamy ** wskazuj, że używasz identyfikatora reklamowego dla ** Analytics **.
-4. W przypadku ** Bezpieczeństwo danych ** i ** Polityka prywatności ** Sekcje musisz umieścić tekst Polityki prywatności ** na swojej stronie ** i podać link do tej strony.
-5. Wypełnienie sekcji ** Oceny treści ** jest możliwe tylko po przesłaniu montażu aplikacji do projektu wydania.
-6. Jeśli Twoja aplikacja nie ma serwera demo, Google może wymagać konta testowego do sprawdzenia aplikacji. Przekaż je te dane, aby się połączyć: URL [http://136.243.144.109:8000/asip-api], root logowania, root hasło.
-7. Jeśli zarejestrowałeś konto osobiste zamiast konta organizacyjnego, przed opublikowaniem wniosku, będziesz musiał przeprowadzić testy zamknięte. Co najmniej 20 urządzeń musi wziąć w nim udział przez co najmniej 14 dni z rzędu. Testowanie na symulatorach nie będą działać, potrzebne są rzeczywiste urządzenia. Google sugeruje poszukiwanie ich prawie na ulicy, szukając wolontariuszy wśród przyjaciół, znajomych i na forach. Musisz utworzyć listę kont urządzeń testujących w konsoli. Po opublikowaniu aplikacji w zamkniętym kanale testowym wyślij testerom link do aplikacji, aby ją zainstalować. Szczegóły [dokumentacja] (https://support.google.com/googleplay/android-developer/answer/14151465). Najbardziej absurdalne wymagania.
+1. Projektując stronę aplikacji, ważne jest, aby przesyłać zrzuty ekranu pobrane specjalnie z Twojej aplikacji. Nie przejdziesz pozytywnie recenzji, jeśli interfejs aplikacji nie zawiera ekranów, które podałeś na zrzutach ekranu.
+2. Jeśli żądasz funkcji **Powiadomienia lokalne**, o której mowa, w sekcji **Uprawnienia do usług na pierwszym planie** musisz nagrać wideo z ekranu i powiedzieć na głos następujący tekst: „Używamy uprawnień do usług na pierwszym planie dla usługa działająca w tle, umożliwiająca otrzymywanie powiadomień z naszego serwera wideo, gdy nie ma Internetu. Zastępuje to powiadomienia push w sieci lokalnej.
+3. W sekcji **Identyfikator reklamowy** wskaż, że używasz identyfikatora reklamowego do **analizy**.
+4. W przypadku sekcji **Bezpieczeństwo danych** i **Polityka prywatności** konieczne będzie umieszczenie tekstu polityki prywatności **na Twojej stronie** oraz podanie linku do tej strony.
+5. Wypełnienie sekcji **Oceny treści** możliwe jest wyłącznie po przesłaniu zestawu aplikacji do wersji roboczej wydania.
+6. Jeżeli Twoja aplikacja nie posiada serwera demonstracyjnego, Google może wymagać konta testowego w celu sprawdzenia aplikacji. Przekaż im te dane, aby się połączyć: URL http://136.243.144.109:8000/asip-api, login root, hasło root.
+7. Jeżeli zamiast konta organizacyjnego zarejestrowałeś konto osobiste, przed publikacją wniosku konieczne będzie przeprowadzenie testów zamkniętych. Co najmniej 20 urządzeń musi brać w nim udział przez co najmniej 14 dni z rzędu. Testowanie na symulatorach nie zadziała, potrzebne są prawdziwe urządzenia. Google sugeruje szukać ich niemal na ulicy, szukać ochotników wśród przyjaciół, znajomych i na forach. Musisz utworzyć w konsoli listę kont urządzeń testowych. Po opublikowaniu aplikacji w kanale testów zamkniętych wyślij testerom link do aplikacji, aby ją zainstalowali. Szczegóły [dokumentacja](https://support.google.com/googleplay/android-developer/answer/14151465). Najbardziej absurdalny wymóg.
 
-_ Zakaż pytania dotyczące wszelkich niejasnych aspektów publikacji, a natychmiast uzupełnimy tę instrukcję odpowiedziami
+_Zadawaj pytania dotyczące niejasnych aspektów publikacji, a my niezwłocznie uzupełnimy niniejszą instrukcję odpowiedziami_
